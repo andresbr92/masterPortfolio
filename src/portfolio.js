@@ -2,14 +2,14 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Andrés Barros Rivas portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Hi! I am a senior technician. I consider myself a 'jack of all trades, master of some'. For as long as I can remember, I have been passionate about technology, programming, wiring, Arduino, Raspberrys, robotics, 3D printing, drones, coffee and my passion for learning and thus my hobbies carry on growing, to the benefit of my brain and the detriment of my pocket...!",
   og: {
     title: "Ashutosh Hathidara Portfolio",
     type: "website",
@@ -19,11 +19,10 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Andrés Barros Rivas",
+  logo_name: "Andresbr92",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Hi! I am a senior technician. I consider myself a 'jack of all trades, master of some'. For as long as I can remember, I have been passionate about technology, programming, wiring, Arduino, Raspberrys, robotics, 3D printing, drones, coffee and my passion for learning and thus my hobbies carry on growing, to the benefit of my brain and the detriment of my pocket...!",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -42,43 +41,43 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/andresbr92",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/andres-barros-rivas/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+    link: "https://www.youtube.com/channel/UCdGvOttrcuu_mL22lm8CScQ",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:andresbr92@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/TresDeVlogs",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/andres.rivasbarros",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/andresbr92/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -87,53 +86,14 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Full Stack Development",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building resposive website front end using React => {Redux, Context, Hooks, Sagas, Thunk}",
+        "⚡ Creating application backend in Node + Typescript, Express. NoSQL database with MongoDB, GraphQL, SQL database with MySQL",
+        "⚡  Git Github & Version control",
+        "⚡  Integration of the 3rd party services APIs",
+        "⚡  Agile tools and methodologies",
       ],
       softwareSkills: [
         {
@@ -145,9 +105,9 @@ const skills = {
         },
         {
           skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          fontAwesomeClassname: "simple-icons:styled-components",
           style: {
-            color: "#1572B6",
+            color: "#DB7093",
           },
         },
         {
@@ -213,19 +173,11 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working on AWS cloud platform",
+        "⚡ Amplify, App Sync. Cognito, Lambda, API Gateway, DynamoDB, Aurora MySQL Cloud Watch, S3, CloudFormation, Step Functions, IAM, SAM, Rekognition para biometría facial, EventBridge",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -234,24 +186,10 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
+          skillName: "Serverless Framework",
+          fontAwesomeClassname: "simple-icons:serverless",
           style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
+            color: "#E7282D",
           },
         },
         {
@@ -269,49 +207,35 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "AWS Amplify",
+          fontAwesomeClassname: "simple-icons:awsamplify",
           style: {
-            color: "#326CE5",
+            color: "#FF9900",
           },
         },
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "BlockChain development",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Experience working on Ethereum Blockchain",
+        "⚡ Solidity, Truffle, Web3, Ganache, OpenZeppelin, Hardhat, Web3-React, Interplanetary-File-System, Ethereum-Ropsten, Ethereum-Rinkeby, Ethereum-Kovan",
+        "⚡ Experience working on Hyperledger Fabric",
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:solidity",
           style: {
-            color: "#FF2BC2",
+            color: "#363636",
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Solidity",
+          fontAwesomeClassname: "simple-icons:ethereum",
           style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
+            color: "#3C3C3D",
           },
         },
       ],
@@ -321,64 +245,72 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      title: "Web Development Bootcamp IronHack",
+      subtitle: "FullStack Javascript Developer",
+      logo_path: "ironhack.png",
+      alt_name: "Ironhack",
+      duration: "2020 - 2020",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ HTML5, CSS3 & Responsive Web Design Fundamentals of Object-oriented programming based on JavaScript",
+        "⚡ Web Development frameworks (Express backend React-frontend) ",
+        "⚡  Relational databases and ODMS",
+        "⚡ Integration of the 3rd party services APIs",
+        "⚡ Write clean, modular and efficient code and develop well-tested applications using TDD (Test Driven Development) principles",
+        "⚡ Servers & Hosting ",
+        "⚡ Agile tools and methodologies ",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.ironhack.com/en",
+    },
+    {
+      title: "Prework Course for Blockchain Application Development",
+      subtitle:
+        "Learn the fundamentals of blockchain and the importance of Web 3.0. Get the basic tools so you can build the new solutions of our ecosystem and the future of the decentralized internet.",
+      logo_path: "platzi.png",
+      alt_name: "Platzi",
+      duration: "2022 - 2022",
+      descriptions: [
+        "⚡ Learn how to use tools like: RemixIDE, Metamask and Truffle Suite",
+        "⚡ Know the main tools for the development of Smart Contracts) ",
+        "⚡ Understand the importance of testnets like Ropsten and Rinkeby  ",
+        "⚡ Study the importance of Solidity in Blockchain development.",
+      ],
+      website_link: "https://platzi.com/cursos/prework-blockchain/",
+    },
+    {
+      title: "Ethereum Course for Developers",
+      subtitle:
+        "Begin your path in the development of Ethereum knowing its history and main characteristics. Understand how asymmetric cryptography works and what it is used for. Learn about the incredible applications that the development of Smart Contracts in Ethereum brought to the blockchain ecosystem and the main decentralized applications.",
+      logo_path: "platzi.png",
+      alt_name: "Platzi",
+      duration: "2022 - 2022",
+      descriptions: [
+        "⚡ Understand the role of consensus mechanisms.",
+        "⚡ Learn about the main applications of Ethereum. ",
+        "⚡ Find out what asymmetric cryptography is and its importance.",
+        "⚡ Learn the history of Ethereum and its differences from Bitcoin.",
+      ],
+      website_link: "https://platzi.com/cursos/ethereum-developers/",
+    },
+    {
+      title: "Introduction to Blockchain Development Course: Smart Contracts",
+      subtitle:
+        "Blockchain development with Solidity, the most used programming language in Ethereum. Learn what a Smart Contract is and its importance within the ecosystem. Master the different types of variables, control structures, functions, and modifiers.",
+      logo_path: "platzi.png",
+      alt_name: "Platzi",
+      duration: "2022 - 2022",
+      descriptions: [
+        "⚡ Know what the Ethereum Virtual Machine is..",
+        "⚡ Learn how to deploy your first contract on the Ropsten testnet. ",
+        "⚡ Use RemixIDE as a working environment to develop.",
+        "⚡ Build your first Smart Contract on the Ethereum blockchain with Solidity.",
+      ],
+      website_link: "https://platzi.com/cursos/smart-contracts/",
     },
   ],
 };
